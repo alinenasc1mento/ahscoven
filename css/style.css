@@ -30,7 +30,15 @@ body {
 .theme-default{
 	background-color:black;
 	 
+	 
 	
+	
+	
+}
+
+#banner{
+	
+	margin-bottom:-8%;
 	
 	
 }
@@ -140,12 +148,13 @@ h1 a{
 }
 
 .sinopse {
-  text-align: center;
+   text-align: center; 
   background-color:black;
   width:100%;
   height:auto;
   color:white;
   font-size:28px;
+ 
 }
 .sinopse img{
 	margin-bottom:2%;
@@ -380,6 +389,12 @@ height: auto;
 }
 	
 	
+#1banner{
+display: none;
+
+
+}	
+	
 
 @media only screen and (min-width:150px) and (max-width:600px)
 {
@@ -430,6 +445,8 @@ height: auto;
   height:auto;
   color:white;
   font-size:15px;
+  
+   
 }
 .sinopse img{
 	margin-bottom:2%;
@@ -483,9 +500,20 @@ margin-bottom:2%;
 }
 
 
-
-
-
+ .titulo00 {
+      color:white;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+	  width:100%;
+	  height:8%;
+	  background-color:black;
+	  padding-top:2%;
+    }
+	
+	
+	
+ 
 
 
 }
