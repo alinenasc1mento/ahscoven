@@ -7,7 +7,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			
 			<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css">
-           		 <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css">
+            <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css">
 			<link rel="icon" href="img/favicon.ico">
 				<script src="nivo-slider/jquery-1.11.1.min.js"></script>
 					<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
@@ -17,6 +17,18 @@
 	$(window).load(function() {
 
 		$('#banner').nivoSlider();
+
+
+        });
+
+</script>
+
+
+<script>
+
+	$(window).load(function() {
+
+		$('#1banner').nivoSlider();
 
 
         });
@@ -43,17 +55,44 @@
 			</nav>	
 			
 				
-			<main class="mainContent">
-					 
-						<div class="theme-default">
-				         <div id="banner">
-					<img src="img/banner1.png" alt="banner">
-					<img src="img/banner2.png" alt="banner">
-					<img src="img/banner3.png" alt="banner">
-				         </div>
-				            </div>
-						 
-			</main>
+		<main class="mainContent">
+  <div class="theme-default">
+     
+    <div id="banner" class="dispositivo-grande">
+      <img src="img/banner1.png" alt="banner">
+      <img src="img/banner2.png" alt="banner">
+      <img src="img/banner3.png" alt="banner">
+    </div>
+    
+     
+    <div id="1banner" class="dispositivo-pequeno">
+      <img src="img/1banner.png" alt="banner">
+      <img src="img/2banner.png" alt="banner">
+      <img src="img/3banner.png" alt="banner">
+    </div>
+  </div>
+</main>
+ <style>
+  /* Estilos para dispositivos grandes */
+  @media (max-width: 600px) {
+    .dispositivo-grande {
+      display: none; /* Oculta o elemento com o ID "banner" em dispositivos menores */
+    }
+	 
+  }
+
+  /* Estilos para dispositivos pequenos */
+  @media (min-width: 601px) {
+    .dispositivo-pequeno {
+      display: none; /* Oculta o elemento com o ID "1banner" em dispositivos maiores */
+    }
+  }
+</style>
+
+
+
+ 
+
 			 
 			
 			
@@ -152,13 +191,13 @@
 							</div>	-->		
 						 
 			<div class="estreia">
-			<!-- <a href="#"><img src="img/covencapa22.png">   </img></a> -->
-			
+			  
+			<h1> Saiba mais sobre as nossas bruxas favoritas <a href="#">clicando aqui! </a> </h1> </div>
 		 
 			</div>
 					<div class="saibamais">	
 							
-						<h1> Saiba mais sobre as nossas bruxas favoritas <a href="#">clicando aqui! </a> </h1> </div>
+						 
 			
 		</body>
 		
@@ -188,11 +227,10 @@
 </div>
 
 <div class="footer-socialmedia">
-<a href=""> <img src="img/instagram.png" alt="" onmouseover="this.src='img/instagram2.png'" onmouseout="this.src='img/instagram.png'"></a>
-<a href=""> <img src="img/facebook.png" alt="" onmouseover="this.src='img/facebook2.png'" onmouseout="this.src='img/facebook.png'"></a>
-<a href=""> <img src="img/tumblr.png" alt="" onmouseover="this.src='img/tumblr2.png'" onmouseout="this.src='img/tumblr.png'"></a>
-<a href=""> <img src="img/twitter.png" alt="" onmouseover="this.src='img/twitter2.png'" onmouseout="this.src='img/twitter.png'"></a>
-
+  <img src="img/instagram.png" alt="" onmouseover="this.src='img/instagram2.png'" onmouseout="this.src='img/instagram.png'">
+  <img src="img/facebook.png" alt="" onmouseover="this.src='img/facebook2.png'" onmouseout="this.src='img/facebook.png'">
+  <img src="img/tumblr.png" alt="" onmouseover="this.src='img/tumblr2.png'" onmouseout="this.src='img/tumblr.png'">
+  <img src="img/twitter.png" alt="" onmouseover="this.src='img/twitter2.png'" onmouseout="this.src='img/twitter.png'">
 </div>
 
 <div class="sitecontainer">
